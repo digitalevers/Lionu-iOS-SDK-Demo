@@ -33,6 +33,8 @@
     [LionuDeviceInfoSDK shareInstance].configModel.isMD5 = YES;
     ///配置SDK是否开启AES加密
     [LionuDeviceInfoSDK shareInstance].configModel.isAES = YES;
+    ///配置SDK base64 aes key
+    [LionuDeviceInfoSDK shareInstance].configModel.base64AesKey = @"aIlPkPRHwHpmuJj2qCkbCRw6N4+KRcHYpf2VwU33lvU=";
     
     //启动上报
     [[LionuDeviceInfoSDK shareInstance] startLaunchEvent];
